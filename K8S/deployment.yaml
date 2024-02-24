@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: dotnet-app
-          image: sevenajay/dotnet-monitoring:latest # Replace with your Docker image name
+          image: yash5090/dotnet-monitoring:latest # Replace with your Docker image name
           ports:
             - containerPort: 5000 # Expose the port specified in your Dockerfile
 
